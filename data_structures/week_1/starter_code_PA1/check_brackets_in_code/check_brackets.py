@@ -19,14 +19,34 @@ class Bracket:
 if __name__ == "__main__":
     text = sys.stdin.read()
 
+    last_index = 1
+    open_flag = False
+
     opening_brackets_stack = []
     for i, next in enumerate(text):
         if next == '(' or next == '[' or next == '{':
-            # Process opening bracket, write your code here
-            pass
+            open_flag = True
+            last_index = i + 1
+            item = Bracket(next, i+1)
+            opening_brackets_stack.append(item)
 
         if next == ')' or next == ']' or next == '}':
-            # Process closing bracket, write your code here
-            pass
+            if len(opening_brackets_stack) == 0:
+                last_index = i + 1
+                break
 
-    # Printing answer, write your code here
+            last = opening_brackets_stack.pop()
+            if not last.Match(next):
+                last_index = i + 1
+                break
+
+            last_index = i + 1
+
+    if (len(opening_brackets_stack) == 0) and open_flag and (last_index % 2 == 0):
+        print("Success")
+    elif (len(text) != last_index) and (len(opening_brackets_stack) != 0):
+        print(opening_brackets_stack[-1].position)
+    else:
+        print(last_index)
+
+
