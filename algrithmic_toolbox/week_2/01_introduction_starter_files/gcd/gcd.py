@@ -41,6 +41,7 @@ if __name__ == '__main__':
 	# 	res2 = gcd_euclid(a, b)
 	# 	if (res1 != res2):
 	# 		print('Wrond answer: {} {}'.format(res1, res2))
+	# 		break
 	# 	else:
 	# 		print('OK: {} {}'.format(res1, res2))
 
