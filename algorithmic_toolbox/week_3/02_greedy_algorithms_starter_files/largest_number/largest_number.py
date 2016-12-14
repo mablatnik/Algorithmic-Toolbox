@@ -3,10 +3,12 @@
 import sys
 
 def largest_number(a):
-    #write your code here
     res = ""
-    for x in a:
-        res += x
+    while len(a) > 0:
+    	max_digit = 1e-10
+	    for x in a:
+	    	
+
     return res
 
 if __name__ == '__main__':
@@ -14,4 +16,3 @@ if __name__ == '__main__':
     data = input.split()
     a = data[1:]
     print(largest_number(a))
-    
