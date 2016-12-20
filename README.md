@@ -13,13 +13,13 @@ Assignments for Algorithmic Toolbox on Coursera with time and memory results fro
 
 ## Week 1
 ### Solving a Simple Code Problem
-Problem: [A plus B]()
+Problem: [A plus B](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_1/a_plus_b)
 
 * Python:
 * Java:
 * C++: 
 
-Problem: [Maximum Pairwise Product]()
+Problem: [Maximum Pairwise Product](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_1/maximum_pairwise_product)
 
 * Python:
 * Java:
@@ -27,63 +27,75 @@ Problem: [Maximum Pairwise Product]()
 
 ## Week 2
 ###  Prgramming Assignment: Introduction
-Problem: [Small Fibonacci Number]() </br>
+Problem: [Small Fibonacci Number](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci) </br>
 
 * Python:
 * Java:
 * C++: 
 
-Problem: [The Last Digit of a Large Fibonacci Number]() </br>
+Problem: [The Last Digit of a Large Fibonacci Number](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_last_digit) </br>
 
 * Python:
 * Java:
 * C++: 
 
-Problem: [Greatest Common Divisor]() </br>
+Problem: [Greatest Common Divisor](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/gcd) </br>
 
 * Python:
 * Java:
 * C++: 
 
-Problem: [Least Common Multiple]() </br>
+Problem: [Least Common Multiple](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/lcm) </br>
 
 * Python:
 * Java:
 * C++: 
 
-Advanced Problem: [Huge Fibonacci Number modulo m]() </br>
+Advanced Problem: [Huge Fibonacci Number modulo m](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_huge) </br>
 
 * Python:
 * Java:
 * C++: 
+
+Advanced Problem: [Last Digit of a Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_sum_last_digit) </br>
+
+* Python:
+* Java:
+* C++:
+
+Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_partial_sum) </br>
+
+* Python:
+* Java:
+* C++:
 
 ## Week 3
 ###  Programming Assignment: Greedy Algorithms
-Problem: [Changing Money]() </br>
+Problem: [Changing Money](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/change) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Fractional Knapsack]() </br>
+Problem: [Fractional Knapsack](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/fractional_knapsack) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Minimum Dot Product]() </br>
+Problem: [Minimum Dot Product](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/dot_product) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Covering Segments by Points]() </br>
+Problem: [Covering Segments by Points](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/covering_segments) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Pairwise Distinct Summands]() </br>
+Problem: [Pairwise Distinct Summands](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/different_summands) </br>
 
 * Python:
 * Java:
@@ -91,31 +103,31 @@ Problem: [Pairwise Distinct Summands]() </br>
 
 ## Week 4
 ###  Programming Assignment: Divide and Conquer
-Problem: [Binary Search]() </br>
+Problem: [Binary Search](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/binary_search) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Majority Element]() </br>
+Problem: [Majority Element](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/majority_element) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [3-Way Partition]() </br>
+Problem: [3-Way Partition](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/sorting) </br>
 
 * Python:
 * Java:
 * C++:
 
-Advanced Problem: [Number of Inversions]() </br>
+Advanced Problem: [Number of Inversions](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/inversions) </br>
 
 * Python:
 * Java:
 * C++:
 
-Advanced Problem: [Points and Segments]() </br>
+Advanced Problem: [Points and Segments](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/points_and_segments) </br>
 
 * Python:
 * Java:
@@ -123,13 +135,13 @@ Advanced Problem: [Points and Segments]() </br>
 
 ## Week 5
 ### Programming Assignment: Dynamic Programming
-Problem: [Primitive Calculator]() </br>
+Problem: [Primitive Calculator](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/primitive_calculator) </br>
 
 * Python:
 * Java:
 * C++:
 
-Problem: [Take as Much Gold as Possible]() </br>
+Problem: [Take as Much Gold as Possible](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/knapsack) </br>
 
 * Python:
 * Java:
