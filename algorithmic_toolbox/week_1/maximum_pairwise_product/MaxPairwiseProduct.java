@@ -49,7 +49,8 @@ public class MaxPairwiseProduct {
         
         System.out.println(getMaxPairwiseProductFast(numbers));
         
-     /*
+
+    /*
     // stress test
     while (true) {
 
