@@ -40,17 +40,29 @@ Problem: [Greatest Common Divisor](https://github.com/mablatnik/Data-Structures-
 * Java: Max time used: 0.21/1.50, max memory used: 24121344/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 9560064/536870912
 
-Problem: [Least Common Multiple]() </br>
+Problem: [Least Common Multiple](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/lcm) </br>
 
 * Python: Max time used: 0.09/5.00, max memory used: 9601024/536870912
 * Java: Max time used: 0.17/1.50, max memory used: 24133632/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 9580544/536870912
 
-Advanced Problem: [Huge Fibonacci Number modulo m]() </br>
+Advanced Problem: [Huge Fibonacci Number modulo m](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_huge) </br>
+
+* Python: Max time used: 0.21/5.00, max memory used: 30359552/536870912
+* Java: Max time used: 0.17/1.50, max memory used: 30363648/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 30363648/536870912
+
+Advanced Problem: [Last Digit of a Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_sum_last_digit) </br>
 
 * Python:
 * Java:
-* C++: 
+* C++:
+
+Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_partial_sum) </br>
+
+* Python:
+* Java:
+* C++:
 
 ## Week 3
 ###  Programming Assignment: Greedy Algorithms
