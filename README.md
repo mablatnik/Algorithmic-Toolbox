@@ -16,8 +16,8 @@ Assignments for Algorithmic Toolbox on Coursera with time and memory results fro
 ### Solving a Simple Code Problem
 Problem: [Maximum Pairwise Product]()
 
-* Python:
-* Java:
+* Python: Max time used: 0.14/5.00, max memory used: 26456064/536870912
+* Java: Max time used: 0.07/1.00, max memory used: 21037056/536870912
 * C++: Max time used: 0.12/1.00, max memory used: 21045248/536870912
 
 ## Week 2
