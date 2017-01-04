@@ -2,12 +2,10 @@
 
 import sys
 
+
 def largest_number(a):
-    res = ""
-    while len(a) > 0:
-    	max_digit = 1e-10
-	    for x in a:
-	    	
+    nums = map(str, a)
+    nums.sort()
 
     return res
 
