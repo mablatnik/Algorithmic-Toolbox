@@ -36,9 +36,9 @@ Problem: [The Last Digit of a Large Fibonacci Number]() </br>
 
 Problem: [Greatest Common Divisor]() </br>
 
-* Python:
-* Java:
-* C++: 
+* Python: Max time used: 0.05/5.00, max memory used: 9568256/536870912
+* Java: Max time used: 0.21/1.50, max memory used: 24121344/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 9560064/536870912
 
 Problem: [Least Common Multiple]() </br>
 
