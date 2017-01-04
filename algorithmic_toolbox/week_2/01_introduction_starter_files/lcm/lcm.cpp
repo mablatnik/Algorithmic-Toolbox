@@ -20,7 +20,7 @@ int euclid_gcd(long a, long b) {
 }
 
 long long lcm_fast( long long a, long long b) {
-	return (a * b)/euclid_gcd(a, b);
+  return (a * b)/euclid_gcd(a, b);
 }
 
 int main() {

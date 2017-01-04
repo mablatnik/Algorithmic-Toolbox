@@ -14,7 +14,7 @@ Assignments for Algorithmic Toolbox on Coursera with time and memory results fro
 
 ## Week 1
 ### Solving a Simple Code Problem
-Problem: [Maximum Pairwise Product]()
+Problem: [Maximum Pairwise Product](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_1/maximum_pairwise_product)
 
 * Python: Max time used: 0.14/5.00, max memory used: 26456064/536870912
 * Java: Max time used: 0.07/1.00, max memory used: 21037056/536870912
@@ -22,19 +22,19 @@ Problem: [Maximum Pairwise Product]()
 
 ## Week 2
 ###  Prgramming Assignment: Introduction
-Problem: [Small Fibonacci Number]() </br>
+Problem: [Small Fibonacci Number](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci) </br>
 
 * Python: Max time used: 0.02/5.00, max memory used: 8740864/536870912
 * Java: Max time used: 0.21/1.50, max memory used: 24145920/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 8744960/536870912
 
-Problem: [The Last Digit of a Large Fibonacci Number]() </br>
+Problem: [The Last Digit of a Large Fibonacci Number](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_last_digit) </br>
 
 * Python: Max time used: 0.17/5.00, max memory used: 8699904/536870912
 * Java: Max time used: 0.19/1.50, max memory used: 28651520/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 8699904/536870912
 
-Problem: [Greatest Common Divisor]() </br>
+Problem: [Greatest Common Divisor](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/gcd) </br>
 
 * Python: Max time used: 0.05/5.00, max memory used: 9568256/536870912
 * Java: Max time used: 0.21/1.50, max memory used: 24121344/536870912
@@ -42,9 +42,9 @@ Problem: [Greatest Common Divisor]() </br>
 
 Problem: [Least Common Multiple]() </br>
 
-* Python:
-* Java:
-* C++: 
+* Python: Max time used: 0.09/5.00, max memory used: 9601024/536870912
+* Java: Max time used: 0.17/1.50, max memory used: 24133632/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 9580544/536870912
 
 Advanced Problem: [Huge Fibonacci Number modulo m]() </br>
 
