@@ -3,18 +3,13 @@ def calc_fib(n):
     if (n <= 1):
         return n
 
-    fib_1 = 0
-    fib_2 = 1
-    fib_currnent = 2
+    previous = 0
+    current  = 1
 
-    i = 2
-    while i <= n:
-    	fib_currnent = fib_1 + fib_2
-    	fib_1 = fib_2
-    	fib_2 = fib_currnent
-    	i += 1
+    for _ in range(n - 1):
+        previous, current = current, previous + current
 
-    return fib_currnent
+    return current
 
 
 n = int(input())

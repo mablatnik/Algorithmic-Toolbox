@@ -24,9 +24,9 @@ Problem: [Maximum Pairwise Product]()
 ###  Prgramming Assignment: Introduction
 Problem: [Small Fibonacci Number]() </br>
 
-* Python:
-* Java:
-* C++: 
+* Python: Max time used: 0.02/5.00, max memory used: 8740864/536870912
+* Java: Max time used: 0.21/1.50, max memory used: 24145920/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 8744960/536870912
 
 Problem: [The Last Digit of a Large Fibonacci Number]() </br>
 
