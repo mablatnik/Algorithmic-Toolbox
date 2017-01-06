@@ -64,11 +64,11 @@ Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://git
 
 ## Week 3
 ###  Programming Assignment: Greedy Algorithms
-Problem: [Changing Money]() </br>
+Problem: [Changing Money](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/change) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.05/5.00, max memory used: 8716288/536870912
+* Java: Max time used: 0.17/1.50, max memory used: 24166400/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 8716288/536870912
 
 Problem: [Fractional Knapsack]() </br>
 
