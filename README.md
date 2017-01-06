@@ -70,11 +70,11 @@ Problem: [Changing Money](https://github.com/mablatnik/Data-Structures-And-Algor
 * Java: Max time used: 0.17/1.50, max memory used: 24166400/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 8716288/536870912
 
-Problem: [Fractional Knapsack]() </br>
+Problem: [Fractional Knapsack](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/fractional_knapsack) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.05/5.00, max memory used: 8761344/671088640
+* Java: Max time used: 0.36/1.50, max memory used: 33243136/671088640
+* C++: Max time used: 0.00/1.00, max memory used: 8769536/671088640
 
 Problem: [Minimum Dot Product]() </br>
 
