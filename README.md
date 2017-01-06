@@ -60,9 +60,7 @@ Advanced Problem: [Last Digit of a Sum of Fibonacci Numbers](https://github.com/
 
 Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_partial_sum) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.05/5.00, max memory used: 8720384/536870912
 
 ## Week 3
 ###  Programming Assignment: Greedy Algorithms
