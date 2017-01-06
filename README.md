@@ -80,7 +80,7 @@ Problem: [Minimum Dot Product](https://github.com/mablatnik/Data-Structures-And-
 
 * Python: Max time used: 0.02/5.00, max memory used: 8945664/536870912
 * Java: Max time used: 0.31/1.50, max memory used: 32632832/536870912
-* C++:
+* C++: Max time used: 0.00/1.00, max memory used: 8957952/536870912
 
 Problem: [Covering Segments by Points]() </br>
 

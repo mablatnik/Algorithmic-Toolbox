@@ -5,11 +5,11 @@
 using std::vector;
 
 long long max_dot_product(vector<int> a, vector<int> b) {
-  std::sort(a.begin(), a.end());
-  std::sort(b.begin(), a.end(), std::greater<int>());
+  std::sort(begin(a), end(a));
+  std::sort(begin(b), end(b));
   long long result = 0;
   for (int i = 0; i < a.size(); i++) {
-    result += a[i] * b[i];
+    result += (long long) a[i] * b[i];
   }
   return result;
 }
