@@ -54,9 +54,9 @@ Advanced Problem: [Huge Fibonacci Number modulo m](https://github.com/mablatnik/
 
 Advanced Problem: [Last Digit of a Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_sum_last_digit) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.06/5.00, max memory used: 9564160/536870912
+* Java: Max time used: 0.21/1.50, max memory used: 24285184/536870912
+* C++: Max time used: 0.00/1.00, max memory used: 8720384/536870912
 
 Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci_partial_sum) </br>
 
