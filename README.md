@@ -85,12 +85,12 @@ Problem: [Minimum Dot Product](https://github.com/mablatnik/Data-Structures-And-
 Problem: [Covering Segments by Points]() </br>
 
 * Python: Max time used: 0.03/5.00, max memory used: 9023488/536870912
-* Java:
+* Java: Max time used: 0.20/1.50, max memory used: 24457216/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 9019392/536870912
 
 Problem: [Pairwise Distinct Summands]() </br>
 
-* Python:
+* Python: Max time used: 0.07/5.00, max memory used: 9617408/536870912
 * Java:
 * C++:
 
