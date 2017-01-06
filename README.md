@@ -92,7 +92,7 @@ Problem: [Pairwise Distinct Summands]() </br>
 
 * Python: Max time used: 0.07/5.00, max memory used: 9617408/536870912
 * Java:
-* C++:
+* C++: Max time used: 0.00/1.00, max memory used: 9613312/536870912
 
 ## Week 4
 ###  Programming Assignment: Divide and Conquer
