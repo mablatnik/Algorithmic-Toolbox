@@ -76,10 +76,10 @@ Problem: [Fractional Knapsack](https://github.com/mablatnik/Data-Structures-And-
 * Java: Max time used: 0.36/1.50, max memory used: 33243136/671088640
 * C++: Max time used: 0.00/1.00, max memory used: 8769536/671088640
 
-Problem: [Minimum Dot Product]() </br>
+Problem: [Minimum Dot Product](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/dot_product) </br>
 
-* Python:
-* Java:
+* Python: Max time used: 0.02/5.00, max memory used: 8945664/536870912
+* Java: Max time used: 0.31/1.50, max memory used: 32632832/536870912
 * C++:
 
 Problem: [Covering Segments by Points]() </br>

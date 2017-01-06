@@ -2,10 +2,11 @@ import java.util.*;
 
 public class DotProduct {
     private static long maxDotProduct(int[] a, int[] b) {
-        //write your code here
+        Arrays.sort(a);
+        Arrays.sort(b);
         long result = 0;
         for (int i = 0; i < a.length; i++) {
-            result += a[i] * b[i];
+            result += (long) a[i] * b[i];
         }
         return result;
     }
@@ -24,4 +25,3 @@ public class DotProduct {
         System.out.println(maxDotProduct(a, b));
     }
 }
-
