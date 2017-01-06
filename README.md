@@ -82,16 +82,16 @@ Problem: [Minimum Dot Product](https://github.com/mablatnik/Data-Structures-And-
 * Java: Max time used: 0.31/1.50, max memory used: 32632832/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 8957952/536870912
 
-Problem: [Covering Segments by Points]() </br>
+Problem: [Covering Segments by Points](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/covering_segments) </br>
 
 * Python: Max time used: 0.03/5.00, max memory used: 9023488/536870912
 * Java: Max time used: 0.20/1.50, max memory used: 24457216/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 9019392/536870912
 
-Problem: [Pairwise Distinct Summands]() </br>
+Problem: [Pairwise Distinct Summands](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/different_summands) </br>
 
 * Python: Max time used: 0.07/5.00, max memory used: 9617408/536870912
-* Java:
+* Java: Max time used: 0.69/1.50, max memory used: 47325184/536870912
 * C++: Max time used: 0.00/1.00, max memory used: 9613312/536870912
 
 ## Week 4
