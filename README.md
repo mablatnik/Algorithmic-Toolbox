@@ -102,11 +102,11 @@ Problem: [Binary Search](https://github.com/mablatnik/Data-Structures-And-Algori
 * Java: Max time used: 1.13/3.00, max memory used: 74174464/536870912
 * C++: Max time used: 0.10/2.00, max memory used: 37974016/536870912
 
-Problem: [Majority Element]() </br>
+Problem: [Majority Element](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/majority_element) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.66/5.00, max memory used: 21393408/536870912
+* Java: 
+* C++: Max time used: 0.05/1.00, max memory used: 21393408/536870912
 
 Problem: [3-Way Partition]() </br>
 
