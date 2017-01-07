@@ -14,7 +14,6 @@ def binary_search_iterative(a, x):
             left = mid + 1
     return -1
 
-
 def linear_search(a, x):
     for i in range(len(a)):
         if a[i] == x:
@@ -29,4 +28,4 @@ if __name__ == '__main__':
     a = data[1 : n + 1]
     for x in data[n + 2:]:
         # replace with the call to binary_search when implemented
-        print(binary_search_recursive(a, x), end = ' ')
+        print(binary_search_iterative(a, x), end = ' ')

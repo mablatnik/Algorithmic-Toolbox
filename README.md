@@ -96,11 +96,11 @@ Problem: [Pairwise Distinct Summands](https://github.com/mablatnik/Data-Structur
 
 ## Week 4
 ###  Programming Assignment: Divide and Conquer
-Problem: [Binary Search]() </br>
+Problem: [Binary Search](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/binary_search) </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.82/10.00, max memory used: 37974016/536870912
+* Java: Max time used: 1.13/3.00, max memory used: 74174464/536870912
+* C++: Max time used: 0.10/2.00, max memory used: 37974016/536870912
 
 Problem: [Majority Element]() </br>
 
