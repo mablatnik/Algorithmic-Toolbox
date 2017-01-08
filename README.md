@@ -111,7 +111,7 @@ Problem: [Majority Element](https://github.com/mablatnik/Data-Structures-And-Alg
 Problem: [3-Way Partition](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/sorting) </br>
 
 * Python: Max time used: 1.02/11.00, max memory used: 28880896/536870912
-* Java:
+* Java: Max time used: 1.16/5.50, max memory used: 70074368/536870912
 * C++: Max time used: 0.08/2.20, max memory used: 29736960/536870912
 
 Advanced Problem: [Number of Inversions]() </br>
