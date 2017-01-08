@@ -112,7 +112,7 @@ Problem: [3-Way Partition](https://github.com/mablatnik/Data-Structures-And-Algo
 
 * Python: Max time used: 1.02/11.00, max memory used: 28880896/536870912
 * Java:
-* C++:
+* C++: Max time used: 0.08/2.20, max memory used: 29736960/536870912
 
 Advanced Problem: [Number of Inversions]() </br>
 
