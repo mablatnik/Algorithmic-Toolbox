@@ -5,6 +5,30 @@
 using std::vector;
 using std::swap;
 
+int quick_sort_partition3(vector<int> &a, int l, int r) {
+  if (l < r) {
+    int pivot = l + rand() % (r - l + 1);
+    int pivot_vale = a[pivot];
+    int p_l1 = l;
+    int p_l2 = l;
+    int p_e = r;
+    while (p_l2 < p_e) {
+      if (a[p_l2] < pivot_vale) {
+        swap(a[p_l1], a[p_l2]);
+        p_l1++;
+        p_l2++;
+      } else if (a[p_l2] == pivot_vale) {
+        p_l2++;
+      } else {
+        p_e -= 1;
+        swap(a[p_l2], a[p_e]);
+      }
+    }
+    quick_sort_partition3(a, l, p_l1);
+    quick_sort_partition3(a, p_e, r);
+  }
+}
+
 int partition2(vector<int> &a, int l, int r) {
   int x = a[l];
   int j = l;
@@ -25,7 +49,7 @@ void randomized_quick_sort(vector<int> &a, int l, int r) {
 
   int k = l + rand() % (r - l + 1);
   swap(a[l], a[k]);
-  int m = partition2(a, l, r);
+  int m = quick_sort_partition3(a, l, r);
 
   randomized_quick_sort(a, l, m - 1);
   randomized_quick_sort(a, m + 1, r);

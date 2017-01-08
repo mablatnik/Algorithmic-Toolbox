@@ -108,9 +108,9 @@ Problem: [Majority Element](https://github.com/mablatnik/Data-Structures-And-Alg
 * Java: Max time used: 0.36/1.50, max memory used: 42090496/536870912
 * C++: Max time used: 0.05/1.00, max memory used: 21393408/536870912
 
-Problem: [3-Way Partition]() </br>
+Problem: [3-Way Partition](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/sorting) </br>
 
-* Python:
+* Python: Max time used: 1.02/11.00, max memory used: 28880896/536870912
 * Java:
 * C++:
 
