@@ -122,9 +122,7 @@ Advanced Problem: [Number of Inversions](https://github.com/mablatnik/Data-Struc
 
 Advanced Problem: [Points and Segments]() </br>
 
-* Python:
-* Java:
-* C++:
+* Python: Max time used: 0.41/20.00, max memory used: 44896256/536870912
 
 ## Week 5
 ### Programming Assignment: Dynamic Programming
