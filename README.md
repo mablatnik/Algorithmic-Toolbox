@@ -117,7 +117,7 @@ Problem: [3-Way Partition](https://github.com/mablatnik/Data-Structures-And-Algo
 Advanced Problem: [Number of Inversions](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/inversions) </br>
 
 * Python: Max time used: 0.77/15.00, max memory used: 21364736/536870912
-* Java:
+* Java: Max time used: 0.87/4.50, max memory used: 112693248/536870912
 * C++: Max time used: 0.05/3.00, max memory used: 21360640/536870912
 
 Advanced Problem: [Points and Segments]() </br>
