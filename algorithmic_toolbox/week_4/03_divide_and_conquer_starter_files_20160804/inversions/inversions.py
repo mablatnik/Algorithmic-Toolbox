@@ -2,18 +2,6 @@
 import sys
 
 
-def merge_sort(a, b, left, right):
-    inv_count = 0
-    if right > left:
-        ave = (left + right) // 2
-        inv_count += merge_sort(a, b, left, ave)
-        inv_count += merge_sort(a, b, ave+1, right)
-
-        inv_count += merge(a, b, left, ave+1, right)
-
-    return inv_count
-
-
 def merge(a, b, left, ave, right):
     inv_count = 0
     i, j, k = left, ave, left
@@ -36,6 +24,18 @@ def merge(a, b, left, ave, right):
         k += 1
     for i in range(left, right+1):
         a[i] = b[i]
+    return inv_count
+
+
+def merge_sort(a, b, left, right):
+    inv_count = 0
+    if right > left:
+        ave = (left + right) // 2
+        inv_count += merge_sort(a, b, left, ave)
+        inv_count += merge_sort(a, b, ave+1, right)
+
+        inv_count += merge(a, b, left, ave+1, right)
+
     return inv_count
 
 

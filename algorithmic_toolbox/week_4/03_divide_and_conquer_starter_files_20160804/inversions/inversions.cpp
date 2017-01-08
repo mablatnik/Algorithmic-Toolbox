@@ -3,14 +3,44 @@
 
 using std::vector;
 
-long long get_number_of_inversions(vector<int> &a, vector<int> &b, size_t left, size_t right) {
-  long long number_of_inversions = 0;
-  if (right <= left + 1) return number_of_inversions;
+long long get_inversions(vector<int> &a, vector<int> &b, size_t left, int ave, size_t right) {
+  size_t i = left, j = ave, k = left;
+  long long inv_count = 0;
+  while (i <= ave-1 && j <= right) {
+    if (a[i] <= a[j]) {
+      b[k] = a[i];
+      i++;
+    } else {
+      b[k] = a[j];
+      inv_count += ave - i;
+      j++;
+    }
+    k++;
+  }
+  while (i <= ave-1) {
+    b[k] = a[i];
+    i++;
+    k++;
+  }
+  while (j <= right) {
+    b[k] = a[j];
+    j++;
+    k++;
+  }
+  for (i = left; i <= right; i++) {
+    a[i] = b[i];
+  }
+  return inv_count;
+}
+
+long long merge_sort(vector<int> &a, vector<int> &b, size_t left, size_t right) {
+  long long inv_count = 0;
+  if (right <= left) return inv_count;
   size_t ave = left + (right - left) / 2;
-  number_of_inversions += get_number_of_inversions(a, b, left, ave);
-  number_of_inversions += get_number_of_inversions(a, b, ave, right);
-  //write your code here
-  return number_of_inversions;
+  inv_count += merge_sort(a, b, left, ave);
+  inv_count += merge_sort(a, b, ave+1, right);
+  inv_count += get_inversions(a, b, left, ave+1, right);
+  return inv_count;
 }
 
 int main() {
@@ -21,5 +51,5 @@ int main() {
     std::cin >> a[i];
   }
   vector<int> b(a.size());
-  std::cout << get_number_of_inversions(a, b, 0, a.size()) << '\n';
+  std::cout << merge_sort(a, b, 0, a.size()-1) << '\n';
 }
