@@ -155,3 +155,9 @@ Advanced Problem: [Longest Common Subsequence of Three Sequences]() </br>
 * Python:
 * Java:
 * C++:
+
+# Data Structures
+Assignments for Data Structures on Coursera with time and memory results from grader </br>
+
+## Week 1
+### Basic Data Structures
