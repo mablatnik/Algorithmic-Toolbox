@@ -129,7 +129,7 @@ Advanced Problem: [Points and Segments](https://github.com/mablatnik/Data-Struct
 Problem: [Primitive Calculator](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/primitive_calculator) </br>
 
 * Python: Max time used: 1.08/7.50, max memory used: 13688832/536870912
-* Java:
+* Java: Max time used: 0.19/2.25, max memory used: 32600064/536870912
 * C++: Max time used: 0.01/1.50, max memory used: 9396224/536870912
 
 Problem: [Take as Much Gold as Possible](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/knapsack) </br>
