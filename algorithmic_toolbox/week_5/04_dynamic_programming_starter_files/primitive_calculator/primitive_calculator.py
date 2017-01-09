@@ -42,8 +42,7 @@ def dynamic_sequence(n):
             )[0]
         value_trail.append(current_value)
     return reversed(value_trail)
-    
-    
+
 
 input = sys.stdin.read()
 n = int(input)

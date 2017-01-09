@@ -120,25 +120,25 @@ Advanced Problem: [Number of Inversions](https://github.com/mablatnik/Data-Struc
 * Java: Max time used: 0.87/4.50, max memory used: 112693248/536870912
 * C++: Max time used: 0.05/3.00, max memory used: 21360640/536870912
 
-Advanced Problem: [Points and Segments]() </br>
+Advanced Problem: [Points and Segments](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/points_and_segments) </br>
 
 * Python: Max time used: 0.41/20.00, max memory used: 44896256/536870912
 
 ## Week 5
 ### Programming Assignment: Dynamic Programming
-Problem: [Primitive Calculator]() </br>
+Problem: [Primitive Calculator](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/primitive_calculator) </br>
 
-* Python:
+* Python: Max time used: 1.08/7.50, max memory used: 13688832/536870912
+* Java:
+* C++: Max time used: 0.01/1.50, max memory used: 9396224/536870912
+
+Problem: [Take as Much Gold as Possible](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/knapsack) </br>
+
+* Python: Max time used: 0.61/10.00, max memory used: 20611072/536870912
 * Java:
 * C++:
 
-Problem: [Take as Much Gold as Possible]() </br>
-
-* Python:
-* Java:
-* C++:
-
-Problem: [Compute the Edit Distance Between Two Strings]() </br>
+Problem: [Compute the Edit Distance Between Two Strings](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/edit_distance) </br>
 
 * Python:
 * Java:
