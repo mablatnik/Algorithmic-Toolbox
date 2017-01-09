@@ -21,7 +21,7 @@ Problem: [Maximum Pairwise Product](https://github.com/mablatnik/Data-Structures
 * C++: Max time used: 0.12/1.00, max memory used: 21045248/536870912
 
 ## Week 2
-###  Prgramming Assignment: Introduction
+###  Prgramming Assignment: [Introduction](https://github.com/mablatnik/Data-Structures-And-Algorithms/blob/master/algorithmic_toolbox/week_2/01_introduction_problems.pdf)
 Problem: [Small Fibonacci Number](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_2/01_introduction_starter_files/fibonacci) </br>
 
 * Python: Max time used: 0.02/5.00, max memory used: 8740864/536870912
@@ -63,7 +63,7 @@ Advanced Problem: [Last Digit of a Partial Sum of Fibonacci Numbers](https://git
 * Python: Max time used: 0.05/5.00, max memory used: 8720384/536870912
 
 ## Week 3
-###  Programming Assignment: Greedy Algorithms
+###  Programming Assignment: [Greedy Algorithms](https://github.com/mablatnik/Data-Structures-And-Algorithms/blob/master/algorithmic_toolbox/week_3/02_greedy_algorithms_problems.pdf)
 Problem: [Changing Money](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_3/02_greedy_algorithms_starter_files/change) </br>
 
 * Python: Max time used: 0.05/5.00, max memory used: 8716288/536870912
@@ -95,7 +95,7 @@ Problem: [Pairwise Distinct Summands](https://github.com/mablatnik/Data-Structur
 * C++: Max time used: 0.00/1.00, max memory used: 9613312/536870912
 
 ## Week 4
-###  Programming Assignment: Divide and Conquer
+###  Programming Assignment: [Divide and Conquer](https://github.com/mablatnik/Data-Structures-And-Algorithms/blob/master/algorithmic_toolbox/week_4/03_divide_and_conquer_problems.pdf)
 Problem: [Binary Search](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_4/03_divide_and_conquer_starter_files_20160804/binary_search) </br>
 
 * Python: Max time used: 0.82/10.00, max memory used: 37974016/536870912
@@ -125,7 +125,7 @@ Advanced Problem: [Points and Segments](https://github.com/mablatnik/Data-Struct
 * Python: Max time used: 0.41/20.00, max memory used: 44896256/536870912
 
 ## Week 5
-### Programming Assignment: Dynamic Programming
+### Programming Assignment: [Dynamic Programming](https://github.com/mablatnik/Data-Structures-And-Algorithms/blob/master/algorithmic_toolbox/week_5/04_dynamic_programming_problems.pdf)
 Problem: [Primitive Calculator](https://github.com/mablatnik/Data-Structures-And-Algorithms/tree/master/algorithmic_toolbox/week_5/04_dynamic_programming_starter_files/primitive_calculator) </br>
 
 * Python: Max time used: 1.08/7.50, max memory used: 13688832/536870912
