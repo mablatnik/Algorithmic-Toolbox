@@ -1,12 +1,14 @@
 # Uses python3
-import sys, unittest
+import sys
+import unittest
+
 
 def fibonacci_partial_sum_naive(from_, to):
     if to <= 1:
         return to
 
     previous = 0
-    current  = 1
+    current = 1
 
     for _ in range(from_ - 1):
         previous, current = current, previous + current
@@ -35,10 +37,10 @@ def get_fibonacci(n):
 
 def fib_period_length(m):
     previous = 0
-    current  = 1
-    for i in range(m*m + 1):
+    current = 1
+    for i in range(m * m + 1):
         previous, current = current, (previous + current) % m
-        if (previous == 0 and current == 1):
+        if previous == 0 and current == 1:
             return i + 1
 
 
@@ -64,8 +66,8 @@ def fibonacci_partial_sum_fast(from_, to):
     if from_ == to:
         return get_fibonacci_last_digit_fast(from_ % 60)
     else:
-        from_ = from_ % 60
-        to = to % 60
+        from_ %= 60
+        to %= 60
 
         from_last = get_fibonacci_huge_fast(from_ + 1, 10) - 1
         to_last = get_fibonacci_huge_fast(to + 2, 10) - 1
@@ -75,18 +77,18 @@ def fibonacci_partial_sum_fast(from_, to):
 
 class MyTest(unittest.TestCase):
     def test_naive(self):
-        self.assertEqual( fibonacci_partial_sum_naive(3, 7), 1)
-        self.assertEqual( fibonacci_partial_sum_naive(10, 10), 5)
+        self.assertEqual(fibonacci_partial_sum_naive(3, 7), 1)
+        self.assertEqual(fibonacci_partial_sum_naive(10, 10), 5)
 
     def test_fast(self):
-        self.assertEqual( fibonacci_partial_sum_fast(3, 7), 1)
-        self.assertEqual( fibonacci_partial_sum_fast(10, 10), 5)
-        self.assertEqual( fibonacci_partial_sum_fast(10, 200), 2)
+        self.assertEqual(fibonacci_partial_sum_fast(3, 7), 1)
+        self.assertEqual(fibonacci_partial_sum_fast(10, 10), 5)
+        self.assertEqual(fibonacci_partial_sum_fast(10, 200), 2)
 
 
 if __name__ == '__main__':
     # unittest.main()
 
-    input = sys.stdin.read();
+    input = sys.stdin.read()
     from_, to = map(int, input.split())
     print(fibonacci_partial_sum_fast(from_, to))

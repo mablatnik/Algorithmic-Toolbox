@@ -1,4 +1,4 @@
-#Uses python3
+# Uses python3
 
 import sys
 
@@ -8,6 +8,7 @@ def largest_number(a):
     nums.sort()
 
     return res
+
 
 if __name__ == '__main__':
     input = sys.stdin.read()

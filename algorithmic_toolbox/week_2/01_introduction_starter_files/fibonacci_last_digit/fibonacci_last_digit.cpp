@@ -6,7 +6,7 @@ int get_fibonacci_last_digit_naive(long long n) {
         return n;
 
     int previous = 0;
-    int current  = 1;
+    int current = 1;
 
     for (int i = 0; i < n - 1; ++i) {
         int tmp_previous = previous;
@@ -24,7 +24,7 @@ int get_fibonacci_last_digit_fast(long long n) {
     int previous = 0;
     int current = 1;
 
-    for (int i = 0; i < n -1; ++i) {
+    for (int i = 0; i < n - 1; ++i) {
         int tmp_previous = previous % 10;
         previous = current % 10;
         current = tmp_previous + current % 10;

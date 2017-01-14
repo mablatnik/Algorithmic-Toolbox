@@ -1,12 +1,14 @@
 # Uses python3
-import sys, unittest
+import sys
+import unittest
+
 
 def get_fibonacci_last_digit_naive(n):
     if n <= 1:
         return n
 
     previous = 0
-    current  = 1
+    current = 1
 
     for _ in range(n - 1):
         previous, current = current, previous + current
@@ -26,16 +28,18 @@ def get_fibonacci_last_digit_fast(n):
 
     return current
 
+
 class MyTest(unittest.TestCase):
     def test_naive(self):
-        self.assertEqual( get_fibonacci_last_digit_naive(3), 2)
-        self.assertEqual( get_fibonacci_last_digit_naive(331), 9)
-        self.assertEqual( get_fibonacci_last_digit_naive(327305), 5)
+        self.assertEqual(get_fibonacci_last_digit_naive(3), 2)
+        self.assertEqual(get_fibonacci_last_digit_naive(331), 9)
+        self.assertEqual(get_fibonacci_last_digit_naive(327305), 5)
 
     def test_fast(self):
-        self.assertEqual( get_fibonacci_last_digit_fast(3), 2)
-        self.assertEqual( get_fibonacci_last_digit_fast(331), 9)
-        self.assertEqual( get_fibonacci_last_digit_fast(327305), 5)
+        self.assertEqual(get_fibonacci_last_digit_fast(3), 2)
+        self.assertEqual(get_fibonacci_last_digit_fast(331), 9)
+        self.assertEqual(get_fibonacci_last_digit_fast(327305), 5)
+
 
 if __name__ == '__main__':
     # unittest.main()

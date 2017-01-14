@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LargestNumber {
     private static String largestNumber(String[] a) {
-        //write your code here
+        // write your code here
         String result = "";
         for (int i = 0; i < a.length; i++) {
             result += a[i];
@@ -20,4 +20,3 @@ public class LargestNumber {
         System.out.println(largestNumber(a));
     }
 }
-

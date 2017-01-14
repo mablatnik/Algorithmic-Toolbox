@@ -8,7 +8,7 @@ long long get_fibonacci_huge_naive(long long n, long long m) {
         return n;
 
     long long previous = 0;
-    long long current  = 1;
+    long long current = 1;
 
     for (long long i = 0; i < n - 1; ++i) {
         long long tmp_previous = previous;
@@ -21,7 +21,7 @@ long long get_fibonacci_huge_naive(long long n, long long m) {
 
 long long get_pisano_period_length(long long m) {
     long long F1 = 0, F2 = 1, F = F1 + F2;
-    for (int i = 0; i < m*m; i++) {
+    for (int i = 0; i < m * m; i++) {
         F = (F1 + F2) % m;
         F1 = F2;
         F2 = F;
@@ -33,7 +33,7 @@ long long get_fibonacci_huge_fast(long long n, long long m) {
     long long remainder = n % get_pisano_period_length(m);
 
     long long F1 = 0, F2 = 1, F = remainder;
-    for(int i = 1;i<remainder;i++) {
+    for (int i = 1; i < remainder; i++) {
         F = (F1 + F2) % m;
         F1 = F2;
         F2 = F;

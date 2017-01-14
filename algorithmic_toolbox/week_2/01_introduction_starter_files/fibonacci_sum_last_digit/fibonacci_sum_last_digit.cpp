@@ -5,8 +5,8 @@ int fibonacci_sum_naive(long long n) {
         return n;
 
     long long previous = 0;
-    long long current  = 1;
-    long long sum      = 1;
+    long long current = 1;
+    long long sum = 1;
 
     for (long long i = 0; i < n - 1; ++i) {
         long long tmp_previous = previous;
@@ -25,7 +25,7 @@ int get_fibonacci_last_digit_fast(long long n) {
     int previous = 0;
     int current = 1;
 
-    for (int i = 0; i < n -1; ++i) {
+    for (int i = 0; i < n - 1; ++i) {
         int tmp_previous = previous % 10;
         previous = current % 10;
         current = tmp_previous + current % 10;
@@ -39,7 +39,7 @@ int fibonacci_sum_fast(long long n) {
     if (new_last == 0) {
         return 9;
     } else {
-        return new_last -1;
+        return new_last - 1;
     }
 }
 

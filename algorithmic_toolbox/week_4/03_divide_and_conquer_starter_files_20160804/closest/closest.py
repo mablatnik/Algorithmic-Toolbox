@@ -1,10 +1,12 @@
-#Uses python3
+# Uses python3
 import sys
 import math
 
+
 def minimum_distance(x, y):
-    #write your code here
+    # write your code here
     return 10 ** 18
+
 
 if __name__ == '__main__':
     input = sys.stdin.read()

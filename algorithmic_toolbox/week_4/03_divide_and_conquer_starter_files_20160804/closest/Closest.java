@@ -21,7 +21,7 @@ public class Closest {
 
     static double minimalDistance(int[] x, int y[]) {
         double ans = Double.POSITIVE_INFINITY;
-        //write your code here
+        // write your code here
         return ans;
     }
 
@@ -42,7 +42,6 @@ public class Closest {
     static BufferedReader reader;
     static PrintWriter writer;
     static StringTokenizer tok = new StringTokenizer("");
-
 
     static String next() {
         while (!tok.hasMoreTokens()) {

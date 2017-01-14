@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 using std::vector;
 
 long long get_fibonacci_partial_sum_naive(long long from, long long to) {
@@ -7,7 +8,7 @@ long long get_fibonacci_partial_sum_naive(long long from, long long to) {
         return to;
 
     long long previous = 0;
-    long long current  = 1;
+    long long current = 1;
 
     for (long long i = 0; i < from - 1; ++i) {
         long long tmp_previous = previous;
@@ -34,7 +35,7 @@ long long fibonacci_fast(long long n) {
     long long F1, F2, F;
     F1 = 0;
     F2 = 1;
-    for(int i = 2;i<=n;i++) {
+    for (int i = 2; i <= n; i++) {
         F = F1 + F2;
         F1 = F2;
         F2 = F;
@@ -44,7 +45,7 @@ long long fibonacci_fast(long long n) {
 
 int get_pisano_period_length(long long m) {
     long long F1 = 0, F2 = 1, F = F1 + F2;
-    for (int i = 0; i < m*m; i++) {
+    for (int i = 0; i < m * m; i++) {
         F = (F1 + F2) % m;
         F1 = F2;
         F2 = F;
@@ -65,7 +66,7 @@ int get_fibonacci_last_digit_fast(long long n) {
     int previous = 0;
     int current = 1;
 
-    for (int i = 0; i < n -1; ++i) {
+    for (int i = 0; i < n - 1; ++i) {
         int tmp_previous = previous % 10;
         previous = current % 10;
         current = tmp_previous + current % 10;

@@ -4,7 +4,7 @@ public class PointsAndSegments {
 
     private static int[] fastCountSegments(int[] starts, int[] ends, int[] points) {
         int[] cnt = new int[points.length];
-        //write your code here
+        // write your code here
         return cnt;
     }
 
@@ -35,11 +35,10 @@ public class PointsAndSegments {
         for (int i = 0; i < m; i++) {
             points[i] = scanner.nextInt();
         }
-        //use fastCountSegments
+        // use fastCountSegments
         int[] cnt = naiveCountSegments(starts, ends, points);
         for (int x : cnt) {
             System.out.print(x + " ");
         }
     }
 }
-

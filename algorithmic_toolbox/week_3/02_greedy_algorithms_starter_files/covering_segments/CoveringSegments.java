@@ -12,7 +12,7 @@ public class CoveringSegments {
         });
         int point = segments[0].end;
         points[0] = point;
-        
+
         int j = 1;
         for (int i = 1; i < segments.length; i++) {
             if (point < segments[i].start || point > segments[i].end) {
@@ -22,7 +22,7 @@ public class CoveringSegments {
             }
         }
         int[] pointsFinal = new int[j];
-        for(int i=0; i<j; i++) {
+        for (int i = 0; i < j; i++) {
             pointsFinal[i] = points[i];
         }
         return pointsFinal;

@@ -1,13 +1,15 @@
 # Uses python3
-import sys, unittest, random
+import sys
+import unittest
+
 
 def fibonacci_sum_naive(n):
     if n <= 1:
         return n
 
     previous = 0
-    current  = 1
-    sum      = 1
+    current = 1
+    sum = 1
 
     for _ in range(n - 1):
         previous, current = current, previous + current
@@ -40,12 +42,13 @@ def fibonacci_sum_fast(n):
 
 class MyTest(unittest.TestCase):
     def test_naive(self):
-        self.assertEqual( fibonacci_sum_naive(3), 4)
-        self.assertEqual( fibonacci_sum_naive(100), 5)
+        self.assertEqual(fibonacci_sum_naive(3), 4)
+        self.assertEqual(fibonacci_sum_naive(100), 5)
 
     def test_fast(self):
-        self.assertEqual( fibonacci_sum_fast(3), 4)
-        self.assertEqual( fibonacci_sum_fast(100), 5)
+        self.assertEqual(fibonacci_sum_fast(3), 4)
+        self.assertEqual(fibonacci_sum_fast(100), 5)
+
 
 if __name__ == '__main__':
     # unittest.main()
