@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include <algorithm>
 using std::vector;
 
 int get_max_index(vector<int> weights, vector<int> values) {
