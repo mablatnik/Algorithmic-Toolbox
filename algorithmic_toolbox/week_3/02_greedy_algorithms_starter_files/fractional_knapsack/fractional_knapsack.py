@@ -1,29 +1,36 @@
-# Uses python3
-import sys
-import unittest
+def max_value_loot(value_p_w, knapsack):
+    max_value = 0
+
+    for i in value_p_w:
+        if i[1] <= knapsack:
+            max_value += round((i[0] * i[1]), 3)
+            knapsack -= i[1]
+        else:
+            max_value += round((i[0] * i[1] * knapsack) / i[1], 3)
+            knapsack = 0
+
+    return max_value
 
 
-def get_optimal_value(capacity, weights, values):
-    value = 0.
-    proportion = [float(v) / float(w) for v, w in zip(values, weights)]
-    for _ in range(len(weights) + 1):
-        if capacity == 0:
-            return value
-            break
-        max_weight = max(proportion)
-        index = proportion.index(max_weight)
-        proportion[index] = -1
-        add_capacity = min(capacity, weights[index])
-        value += add_capacity * max_weight
-        weights[index] -= add_capacity
-        capacity -= add_capacity
-    return value
+items, knapsack = [int(i) for i in input().split()]
 
+if 1 <= items <= 10 ** 3 and 0 <= knapsack <= 2 * (10 ** 6):
+    weights = []
+    values = []
+    value_p_w = {}
+    # value_per_unit_weight = []
+    for i in range(items):
+        value, weight = list(map(int, input().split()))
+        if 0 <= value <= 2 * (10 ** 6) and 0 < weight <= 2 * (10 ** 6):
+            # value_per_unit_weight.append(value / weight)
+            weights.append(weight)
+            values.append(value)
 
-if __name__ == "__main__":
-    data = list(map(int, sys.stdin.read().split()))
-    n, capacity = data[0:2]
-    values = data[2:(2 * n + 2):2]
-    weights = data[3:(2 * n + 2):2]
-    opt_value = get_optimal_value(capacity, weights, values)
-    print("{:.10f}".format(opt_value))
+    for i in range(len(weights)):
+        value_p_w[values[i] / weights[i]] = weights[i]
+
+    value_p_w = sorted(value_p_w.items(), reverse=True)
+    #print(value_p_w)
+
+    print(max_value_loot(value_p_w, knapsack))
+
