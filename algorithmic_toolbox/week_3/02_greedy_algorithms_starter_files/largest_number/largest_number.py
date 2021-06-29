@@ -4,8 +4,13 @@ import sys
 
 
 def largest_number(a):
-    nums = map(str, a)
-    nums.sort()
+    res = ''
+
+    nums = list(map(str, a))
+    nums.sort(reverse=True)
+
+    for x in nums:
+        res += x
 
     return res
 
